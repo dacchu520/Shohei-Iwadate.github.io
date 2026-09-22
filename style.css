@@ -102,6 +102,7 @@
 
 .skills-container {
     display: flex;
+    gap: 20px;
 }
 
   .skill {
@@ -109,6 +110,7 @@
     padding: 25px;
     margin-bottom: 15px;
     border-radius: 8px;
+    flex: 1;
   }
 
   .skill h3 {
@@ -134,7 +136,10 @@
     background-color: #555;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 600px)　{
+      .skills-container {
+    flex-direction: column;
+}
     main {
       padding: 0 20px 60px;
     }
