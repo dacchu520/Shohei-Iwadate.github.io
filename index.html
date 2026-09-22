@@ -15,7 +15,7 @@
          　color: #333333;
      　　　　margin: 0;
      　  　　line-height: 1.6;
-          　padding: 100px;
+          　padding: 140px 100px 100px;
 　　　　　　　}
 
       
@@ -72,13 +72,21 @@
 }
 
 nav {
-    margin-bottom: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
 }
 
 nav a {
     color: #333;
     text-decoration: none;
-    margin-right: 30px;
+    margin: 0 20px;
     font-weight: bold;
 }
 
@@ -126,6 +134,12 @@ nav a:hover {
     
 </section>
 
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to contact me.</p>
+    <a href="mailto:YOUR-EMAIL">Email Me</a>
+</section>
+       
 　 </main>
 　</body>
 </html>
