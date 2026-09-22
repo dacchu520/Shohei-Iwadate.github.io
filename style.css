@@ -137,6 +137,11 @@
   }
 
   @media (max-width: 600px)　{
+
+body {
+    background-color: red;
+}
+      
       .skills-container {
     flex-direction: column;
 　　　background-color: red;
