@@ -136,8 +136,7 @@
     background-color: #555;
   }
 
-  @media (max-width: 600px)　{
-
+  @media (max-width: 2000px) {
 body {
     background-color: red;
 }
