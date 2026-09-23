@@ -145,10 +145,6 @@
       padding: 0 20px 60px;
     }
 
-    .hero {
-      min-height: 400px;
-    }
-
     .hero h1 {
       font-size: 42px;
     }
@@ -211,4 +207,17 @@
   .profile-info {
     grid-template-columns: 1fr;
   }
+    .profile-photo {
+  width: 180px;
+  height: 180px;
+　top: 0;
+}
+    .hero {
+  flex-direction: column;
+　padding-bottom: 0;
+　align-items: center;
+}
+    .hero-text {
+  text-align: center;
+}
 }
