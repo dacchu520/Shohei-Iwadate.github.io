@@ -216,6 +216,8 @@
   flex-direction: column;
 　padding-bottom: 0;
 　align-items: center;
+  min-height: auto;
+　justify-content: flex-start;
 }
     .hero-text {
   text-align: center;
