@@ -137,9 +137,6 @@
   }
 
   @media (max-width: 800px) {
-      .profile-info {
-  grid-template-columns: 1fr;
-}
       
       .skills-container {
     flex-direction: column;
@@ -209,4 +206,9 @@
 
 .profile-info span {
   color: #666;
+}
+@media (max-width: 800px) {
+  .profile-info {
+    grid-template-columns: 1fr;
+  }
 }
