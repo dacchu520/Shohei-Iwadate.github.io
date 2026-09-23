@@ -223,5 +223,6 @@
 }
     .hero-text {
   text-align: center;
+　flex: none;
 }
 }
