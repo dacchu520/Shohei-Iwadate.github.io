@@ -180,5 +180,6 @@
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: 40px;
+  margin-top: 20px;
+　transform: translateY(40px);
 }
