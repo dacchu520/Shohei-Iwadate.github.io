@@ -240,5 +240,9 @@
   left: 0;
   top: 10px;
   bottom: 85px;
-  border-left: 1px solid #999;
-}}
+  width: 1px;
+  background-color: #999;
+  z-index: 0;
+}
+    
+}
