@@ -230,5 +230,15 @@
 #about {
     margin-top: -30px;
 }
-    
+    .timeline {
+  border-left: none;
 }
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  bottom: 85px;
+  border-left: 1px solid #999;
+}}
